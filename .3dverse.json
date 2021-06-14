@@ -1,0 +1,9 @@
+{
+    "ca65ef93-02e3-4bdd-82f8-6cbbda29a97a" : {
+        "exports" : ["sources/main.glsl","sources/main2.glsl"],
+        "includes" : [
+            "sources/common/*.glsl",
+            "sources/*.glsl"
+        ]
+    }
+}
