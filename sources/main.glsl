@@ -1,6 +1,7 @@
 //--------------------------------------------------------------------------------------------------
 vec4 boxBlur(vec2 inUv, vec2 textureDim, uint textureIndex, int blurRange, float blurStepModifier, float factor)
 {
+    // :)
     int n = 0;
     vec4 result = vec4(0.0);
     for (int x = -blurRange; x < blurRange; x++) 
