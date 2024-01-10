@@ -1,7 +1,7 @@
 {
   "exports": ["main.glsl"],
   "includes": [],
-  "specialization_constant" : [
+  "specialization_constants" : [
     {
       "type": "float",
       "name": "GREY_R_CHANNEL_FACTOR",
