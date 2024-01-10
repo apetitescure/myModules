@@ -1,4 +1,26 @@
 {
   "exports": ["main.glsl"],
-  "includes": []
+  "includes": [],
+  "specialization_constant" : [
+    {
+      "type": "float",
+      "name": "GREY_R_CHANNEL_FACTOR",
+      "value": 0.3
+    },
+    {
+      "type": "float",
+      "name": "GREY_G_CHANNEL_FACTOR",
+      "value": 0.59
+    },
+    {
+      "type": "float",
+      "name": "GREY_B_CHANNEL_FACTOR",
+      "value": 0.11
+    },
+    {
+      "type": "int",
+      "name": "ELAPSED_TIME_FACTOR",
+      "value": 10
+    }
+  ]
 }
