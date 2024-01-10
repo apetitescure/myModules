@@ -18,7 +18,7 @@ vec4 asciiCharacter(in vec2 pix, in vec4 col)
 {
     int n = 4096;
 
-    float gray = 0.3 * col.r + 0.59 * col.g + 0.11 * col.b * abs(sin(ConstData.elapsedTime)) * 10;
+    float gray = GREY_R_CHANNEL_FACTOR * col.r + GREY_G_CHANNEL_FACTOR * col.g + GREY_B_CHANNEL_FACTOR * col.b * abs(sin(ConstData.elapsedTime)) * ELAPSED_TIME_FACTOR;
 
     // limited character set
     if (gray > 0.2) n = 65600;    // :
