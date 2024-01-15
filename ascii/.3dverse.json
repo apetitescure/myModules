@@ -21,6 +21,11 @@
       "type": "int",
       "name": "ELAPSED_TIME_FACTOR",
       "value": 10
+    },
+    {
+      "type": "bool",
+      "name": "ADVANCED",
+      "value": false
     }
   ]
 }
