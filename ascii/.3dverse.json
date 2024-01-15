@@ -26,11 +26,6 @@
       "type": "bool",
       "name": "ADVANCED",
       "value": false
-    },
-    {
-      "type": "vec3",
-      "name": "TRANSFORM_VECTOR",
-      "value": [1, 2, 3]
     }
   ]
 }
